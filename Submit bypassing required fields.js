@@ -8,6 +8,7 @@ Use Case:   We have a form with one or multiple fields we do not want set on sub
             To speed this up, we can just temporarily hide the field(s) and allow submission.
             We use an asynchronous function call with an await in order to ensure the field(s) hide before continuing to process.
 
+Laserfiche Designer:  Laserfiche Modern Designer
 Button Label:    More Information Needed
 Target fieldID:  44 
 
