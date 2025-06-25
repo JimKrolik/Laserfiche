@@ -28,9 +28,6 @@ LFForm.onLookupDone(function () {
 
   //Set the looked up policy text to the HTML field
   LFForm.changeFieldSettings( {fieldId: 2}, {content: policyText} );
-  
-  //Clear the buffer box as the line html tags break submission < >
-  LFForm.setFieldValues({variableName: "_POLICY_TEXT__HIDDEN"},"");
 
 }, {lookupRuleId: 1}); 
 
