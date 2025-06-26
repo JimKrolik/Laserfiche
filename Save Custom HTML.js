@@ -15,8 +15,8 @@
 
   The following elements are on the page:
                 A text box containing the relevant policy name (fieldId 1, variable name _POLICY_TEXT__HIDDEN)
-                A rich text box to pre-load the HTML, field rule to hide, but save data, marked as read only.
-                The HTML block (fieldId 2)
+                A rich text box or multi-line text box to pre-load the HTML, field rule to hide, but save data, marked as read only.
+                The HTML block (fieldId 2) with the default data set to the variable of the pre-load HTML box.
 
   We also have the following lookup rule:
                 Match policy type and fill in the rich text field and the text box with the contents of the HTML data.
